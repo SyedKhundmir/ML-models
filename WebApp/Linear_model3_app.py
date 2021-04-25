@@ -8,8 +8,8 @@ pkl_filename = 'pickle_model.pkl'
 with open(pkl_filename,'rb') as file:
     pickle_model = pickle.load(file)
 
-def load(rno1,rno2):
-    input = np.array([[rno1,rno2]]).astype(np.float)
+def load(Mileage,Years):
+    input = np.array([[Mileage,Years]]).astype(np.float)
     prediction = math.floor(pickle_model.predict(input))
     return prediction
 
