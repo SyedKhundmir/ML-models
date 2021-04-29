@@ -6,3 +6,5 @@
 5. Linear regression model - Predict selling price of a car.(Web App)
 6. Logistic regression Multiclass classification - Predict the digit using sklearn's digits dataset.
 7. Logistic regression Multiclass classification - Predict the type of flower using sklearn's iris flower dataset.
+8. KMeans clustering - Predict the income of an individual.
+9. Decision Tree - Predict survival of a person in the titanic ship.
